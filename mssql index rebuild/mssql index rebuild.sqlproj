@@ -60,9 +60,9 @@
     <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+    <PostDeploy Include="Generate plan.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Script.PostDeployment1.sql" />
+    <Build Include="Excute plan.sql" />
   </ItemGroup>
 </Project>
